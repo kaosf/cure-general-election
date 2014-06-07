@@ -41,3 +41,5 @@ gem 'spring',        group: :development
 gem 'devise', '3.2.4'
 gem 'omniauth', '1.2.1'
 gem 'omniauth-twitter', '1.0.1'
+
+gem 'rubicure', '0.0.5'
