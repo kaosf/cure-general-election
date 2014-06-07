@@ -24,3 +24,8 @@ This service is hosted on Heroku.
 [MIT](http://opensource.org/licenses/MIT)
 
 Copyright (C) 2014 ka
+
+## Special thanks
+
+* [@37564029 (みらしぬ)](https://twitter.com/37564029) The [tweet](https://twitter.com/37564029/status/475263140624465920) of the origin of this project
+* [@sue445 (Go Sueyoshi)](https://github.com/sue445) Author of Rubicure
