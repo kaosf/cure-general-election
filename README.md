@@ -1,28 +1,22 @@
-== README
+# Cure General Election
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
+Pretty Cure General Election 2014
 
-Things you may want to cover:
+This service is hosted on Heroku.
 
-* Ruby version
+[http://cure-general-election.herokuapp.com](http://cure-general-election.herokuapp.com)
 
-* System dependencies
+## TODO
 
-* Configuration
+* Be joined this project by collaborators (both on Github and on Heroku)
+* Enhance UI and designs
 
-* Database creation
+## References
 
-* Database initialization
+* [Rails4 で Devise と OmniAuth で、Twitter/Facebook のOAuth認証と通常フォームでの認証を併用して実装 | EasyRamble](http://easyramble.com/implement-devise-and-ominiauth-on-rails.html)
 
-* How to run the test suite
+## License
 
-* Services (job queues, cache servers, search engines, etc.)
+[MIT](http://opensource.org/licenses/MIT)
 
-* Deployment instructions
-
-* ...
-
-
-Please feel free to use a different markup language if you do not plan to run
-<tt>rake doc:app</tt>.
+Copyright (C) 2014 ka
