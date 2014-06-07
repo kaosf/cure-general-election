@@ -1,4 +1,6 @@
-<% unless user_signed_in? %>
+<% if user_signed_in? %>
+<p>何度でも投票し直せます (1 アカウントにつき 1 票しか入れられません)</p>
+<% else %>
 <p>Twitter でサインインすると投票出来ます</p>
 <% end %>
 <ol>
