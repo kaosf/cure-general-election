@@ -10,6 +10,7 @@ This service is hosted on Heroku.
 
 * Be joined this project by collaborators (both on Github and on Heroku)
 * Enhance UI and designs
+* Write tests
 
 ## References
 
