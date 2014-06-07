@@ -1,4 +1,24 @@
-<p>index.html.erb</p>
+<% unless user_signed_in? %>
+<p>Twitter でサインインすると投票出来ます</p>
+<% end %>
+<ol>
+<% Precure.all_stars.map(&:precure_name).each.with_index do |precure, i| %>
+  <li>
+    <% if user_signed_in? %>
+    <%= form_for [@election, @vote], url: "/elections/#{@election.id}/vote" do |f| %>
+      <%= f.submit '投票する' %>
+      <%= f.hidden_field :body, value: i %>
+      <%= precure %>
+      <% if !@vote.body.nil? && @vote.body == i %>
+      (このプリキュアに投票しています)
+      <% end %>
+    <% end %>
+    <% else %>
+    <%= precure %>
+    <% end %>
+  </li>
+<% end %>
+</ol>
 
 <hr>
 <% if user_signed_in? %>
