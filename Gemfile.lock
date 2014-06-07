@@ -1,3 +1,12 @@
+GIT
+  remote: git://github.com/kaosf/rubicure
+  revision: f4c107af0713b53591161cef8c6917c20874e827
+  branch: bump-up-activesupport-version
+  specs:
+    rubicure (0.0.5)
+      activesupport (~> 4.1.1)
+      hashie (~> 2.0.5)
+
 GEM
   remote: https://rubygems.org/
   specs:
@@ -45,7 +54,7 @@ GEM
       warden (~> 1.2.3)
     erubis (2.7.0)
     execjs (2.2.0)
-    hashie (2.1.1)
+    hashie (2.0.5)
     hike (1.2.3)
     i18n (0.6.9)
     jbuilder (2.0.8)
@@ -142,6 +151,7 @@ DEPENDENCIES
   omniauth-twitter (= 1.0.1)
   pg
   rails (= 4.1.1)
+  rubicure!
   sass-rails (~> 4.0.3)
   sdoc (~> 0.4.0)
   spring
