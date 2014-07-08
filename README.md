@@ -8,7 +8,7 @@ This service is hosted on Heroku.
 
 ## TODO
 
-* Be joined this project by collaborators (both on Github and on Heroku)
+* Be joined some collaborators to this project (both on Github and on Heroku)
 * Enhance UI and designs
 * Write tests
 
