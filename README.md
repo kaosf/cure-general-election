@@ -1,6 +1,6 @@
 # Cure General Election
 
-Pretty Cure General Election 2014
+Pretty Cure General Election 2015
 
 This service is hosted on Heroku.
 
@@ -23,7 +23,7 @@ This service is hosted on Heroku.
 
 [MIT](http://opensource.org/licenses/MIT)
 
-Copyright (C) 2014 ka
+Copyright (C) 2014-2015 ka
 
 ## Special thanks
 
