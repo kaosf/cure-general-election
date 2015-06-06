@@ -6,7 +6,8 @@
 <p>Twitter でサインインすると投票出来ます</p>
 <% end %>
 <ol>
-<% Precure.all_stars.map(&:precure_name).each.with_index do |precure, i| %>
+<% i = 0 %>
+<% Precure.all_stars.sort_by{|v|[v.created_date, i += 1]}.map(&:precure_name).each.with_index do |precure, i| %>
   <li>
     <% if user_signed_in? %>
     <%= form_for [@election, @vote], url: "/elections/#{@election.id}/vote" do |f| %>
