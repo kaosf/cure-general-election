@@ -23,7 +23,7 @@ This service is hosted on Heroku.
 
 [MIT](http://opensource.org/licenses/MIT)
 
-Copyright (C) 2014-2015 ka
+Copyright (C) 2014-2018 ka
 
 ## Special thanks
 
