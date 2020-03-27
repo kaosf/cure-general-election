@@ -46,3 +46,7 @@ gem 'omniauth', '1.3.2'
 gem 'omniauth-twitter', '1.0.1'
 
 gem 'rubicure', '0.2.5'
+
+group :development, :test do
+  gem 'dotenv-rails'
+end
