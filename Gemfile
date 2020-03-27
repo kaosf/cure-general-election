@@ -42,7 +42,7 @@ gem 'spring',        group: :development
 gem 'rails_12factor', '0.0.3'
 
 gem 'devise', '~> 4.7'
-gem 'omniauth', '1.3.2'
+gem 'omniauth', '~> 1.9'
 gem 'omniauth-twitter', '~> 1.4'
 
 gem 'rubicure', '0.2.5'
