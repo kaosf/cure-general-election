@@ -1,0 +1,9 @@
+version: '3.7'
+services:
+  db:
+    image: postgres:10.12
+    restart: always
+    environment:
+      - POSTGRES_PASSWORD=p
+    ports:
+      - $DB_PORT:5432
