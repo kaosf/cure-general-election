@@ -52,7 +52,7 @@ gem 'puma', '~> 5.6'
 gem 'rails_12factor', '0.0.3'
 
 gem 'devise', '~> 4.7'
-gem 'omniauth', '~> 1.9'
+gem 'omniauth', '~> 2.1'
 gem 'omniauth-twitter', '~> 1.4'
 
 gem 'rubicure', '~> 3.1.3'
