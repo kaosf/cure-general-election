@@ -40,6 +40,8 @@ gem 'spring', group: :development
 # Reduces boot times through caching; required in config/boot.rb
 gem 'bootsnap', '>= 1.4.2', require: false
 
+gem "net-smtp"
+
 gem 'puma', '~> 5.6'
 
 gem 'rails_12factor', '0.0.3'
