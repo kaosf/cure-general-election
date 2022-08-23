@@ -50,7 +50,7 @@ gem 'devise', '~> 4.7'
 gem 'omniauth', '~> 1.9'
 gem 'omniauth-twitter', '~> 1.4'
 
-gem 'rubicure', '~> 1.3'
+gem 'rubicure', '~> 3.1.3'
 
 group :development do
   # Access an interactive console on exception pages or by calling 'console' anywhere in the code.
