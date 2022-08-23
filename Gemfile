@@ -40,7 +40,12 @@ gem 'spring', group: :development
 # Reduces boot times through caching; required in config/boot.rb
 gem 'bootsnap', '>= 1.4.2', require: false
 
-gem "net-smtp"
+gem "net-smtp", require: false
+gem "net-imap", require: false
+gem "net-pop", require: false
+# To fix the following error on production:
+#
+#     /app/vendor/bundle/ruby/3.1.0/gems/bootsnap-1.13.0/lib/bootsnap/load_path_cache/core_ext/kernel_require.rb:29:in `require': cannot load such file -- net/pop (LoadError)
 
 gem 'puma', '~> 5.6'
 
