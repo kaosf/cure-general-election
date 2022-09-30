@@ -2,10 +2,6 @@
 
 Pretty Cure General Election 2015
 
-This service is hosted on Heroku.
-
-[https://cure-general-election.herokuapp.com](https://cure-general-election.herokuapp.com)
-
 ## TODO
 
 * Be joined some collaborators to this project (both on Github and on Heroku)
